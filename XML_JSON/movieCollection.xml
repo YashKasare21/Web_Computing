@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+  <movie>
+    <title>Inception</title>
+    <director>Christopher Nolan</director>
+    <genre>Sci-Fi</genre>
+    <releaseYear>2010</releaseYear>
+    <cast>
+      <member>
+        <name>Leonardo DiCaprio</name>
+        <role>Cobb</role>
+      </member>
+      <member>
+        <name>Joseph Gordon-Levitt</name>
+        <role>Arthur</role>
+      </member>
+    </cast>
+  </movie>
+</movies>

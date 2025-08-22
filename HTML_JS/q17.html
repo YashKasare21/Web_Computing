@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  let name = document.forms["alumniForm"]["name"].value;
+  let dob = document.forms["alumniForm"]["dob"].value;
+  let email = document.forms["alumniForm"]["email"].value;
+
+  if (name == "" || dob == "" || email == "") {
+    alert("All fields are required!");
+    return false;
+  }
+
+  let birthYear = new Date(dob).getFullYear();
+  let currentYear = new Date().getFullYear();
+  let age = currentYear - birthYear;
+
+  if (age < 22) {
+    alert("Age must be 22 years or above.");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+<form name="alumniForm" onsubmit="return validateForm()">
+  Name: <input type="text" name="name"><br><br>
+  DOB: <input type="date" name="dob"><br><br>
+  Email: <input type="email" name="email"><br><br>
+  Hobbies: <input type="checkbox" value="Reading">Reading
+  <input type="checkbox" value="Sports">Sports<br><br>
+  Branch: <input type="radio" name="branch" value="CS">CS
+  <input type="radio" name="branch" value="IT">IT<br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

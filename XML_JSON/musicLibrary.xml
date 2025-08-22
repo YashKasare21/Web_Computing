@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<musicLibrary>
+  <album>
+    <title>Thriller</title>
+    <artist>Michael Jackson</artist>
+    <genre>Pop</genre>
+    <releaseDate>1982</releaseDate>
+    <tracks>
+      <track number="1">Wanna Be Startin' Somethin'</track>
+      <track number="2">Thriller</track>
+    </tracks>
+  </album>
+</musicLibrary>

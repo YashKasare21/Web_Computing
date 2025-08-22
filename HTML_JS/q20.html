@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+  let colors = ["red", "green", "blue", "yellow"];
+  let i = 0;
+  setInterval(() => {
+    document.body.style.background = colors[i];
+    i = (i + 1) % colors.length;
+  }, 2000);
+</script>
+</body>
+</html>

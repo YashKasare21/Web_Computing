@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function validatePassword() {
+  let pwd = prompt("Enter Password:");
+  if (pwd.length < 8) {
+    alert("Password must be at least 8 characters");
+  } else if (!/[A-Z]/.test(pwd)) {
+    alert("Password must contain an uppercase letter");
+  } else if (!/[a-z]/.test(pwd)) {
+    alert("Password must contain a lowercase letter");
+  } else if (!/[0-9]/.test(pwd)) {
+    alert("Password must contain a number");
+  } else {
+    alert("Password is valid");
+  }
+}
+validatePassword();
+</script>
+</body>
+</html>

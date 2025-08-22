@@ -1,0 +1,13 @@
+{
+  "trips": [
+    {
+      "destination": "Paris",
+      "startDate": "2025-06-10",
+      "endDate": "2025-06-20",
+      "activities": [
+        { "name": "Eiffel Tower Visit", "time": "10:00 AM", "location": "Paris" },
+        { "name": "Louvre Museum", "time": "2:00 PM", "location": "Paris" }
+      ]
+    }
+  ]
+}

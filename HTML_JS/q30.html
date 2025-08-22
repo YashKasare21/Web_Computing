@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+// Auto change every 5 seconds
+let colors = ["red", "blue", "green"];
+let i = 0;
+setInterval(() => {
+  document.body.style.background = colors[i];
+  i = (i + 1) % colors.length;
+}, 5000);
+</script>
+</body>
+</html>

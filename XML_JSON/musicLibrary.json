@@ -1,0 +1,14 @@
+{
+  "musicLibrary": [
+    {
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "genre": "Pop",
+      "releaseDate": "1982",
+      "tracks": [
+        { "number": 1, "name": "Wanna Be Startin' Somethin'" },
+        { "number": 2, "name": "Thriller" }
+      ]
+    }
+  ]
+}

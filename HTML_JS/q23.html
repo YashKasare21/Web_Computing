@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function validateUser() {
+  let username = "User123";
+  let password = "PassWord1";
+
+  let userCheck = /^[a-zA-Z0-9]{5,15}$/;
+  let passCheck = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+
+  if (!userCheck.test(username)) {
+    alert("Invalid Username");
+  } else if (!passCheck.test(password)) {
+    alert("Invalid Password");
+  } else {
+    alert("Valid Credentials");
+  }
+}
+validateUser();
+</script>
+</body>
+</html>
